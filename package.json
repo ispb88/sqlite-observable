@@ -1,0 +1,36 @@
+{
+    "name": "@ispb/observable-sqlite",
+    "license": "MIT",
+    "version": "0.0.1",
+    "type": "module",
+    "sideEffects": false,
+    "scripts": {
+        "build": "tsc",
+        "watch": "tsc --watch"
+    },
+    "files": [
+        "dist"
+    ],
+    "exports": {
+        "default": "./dist/index.js",
+        "types": "./dist/index.d.ts"
+    },
+    "dependencies": {
+        "async-mutex": "^0.5.0",
+        "nanoid": "^6.0.1",
+        "p-lazy": "^5.0.0",
+        "ramda": "^0.32.0",
+        "throttle-debounce": "^5.0.2",
+        "wa-sqlite": "https://github.com/rhashimoto/wa-sqlite.git#6488b23d5e28ff36c418e2610fe01f680d54d588"
+    },
+    "devDependencies": {
+        "@types/ramda": "^0.32.0",
+        "@types/throttle-debounce": "^5.0.2",
+        "rxjs": "^7.8.2",
+        "typescript": "^7.0.2",
+        "vite": "^8.2.1"
+    },
+    "peerDependencies": {
+        "rxjs": "^7.8.1"
+    }
+}

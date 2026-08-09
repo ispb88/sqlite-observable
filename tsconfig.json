@@ -1,0 +1,33 @@
+{
+    "compilerOptions": {
+        "strict": true,
+        "alwaysStrict": true,
+        "allowUnreachableCode": false,
+        "allowUnusedLabels": false,
+        "noImplicitAny": true,
+        "noImplicitThis": true,
+        "noImplicitOverride": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "noPropertyAccessFromIndexSignature": true,
+        "noUncheckedIndexedAccess": true,
+        "noFallthroughCasesInSwitch": true,
+        "useUnknownInCatchVariables": true,
+        "exactOptionalPropertyTypes": true,
+        "moduleResolution": "nodenext",
+        "module": "nodenext",
+        "target": "esnext",
+        "declaration": true,
+        "sourceMap": true,
+        "skipLibCheck": true,
+        "rootDir": "src",
+        "outDir": "dist",
+        "lib": [
+            "esnext",
+            "webworker"
+        ]
+    },
+    "include": [
+        "src"
+    ]
+}
